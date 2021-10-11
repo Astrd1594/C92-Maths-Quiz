@@ -1,0 +1,53 @@
+
+.pinkP{
+    cursor: default;
+}
+#displayQuestion{
+    font-size: 25px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(224, 38, 38);
+}
+input{
+    width: 60%;
+    transition: all 0.2s ease-in-out;
+}
+div{
+    background-color: white;
+}
+input:hover{
+    border-color: lightblue;
+}
+#title{
+    color: white;
+    font-size: 40px;
+}
+center{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#answerInput{
+    width: 80%;
+}
+p{
+    font-size: 20px;
+}
+#questionTurn, #answerTurn{
+    font-size: 30px;
+}
+#bottomIMG{
+    width: 100px;
+    height: 100px;
+}
+#pinkk{
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+label{
+    color: white;
+}
+#sendButton{
+    width: 30%;
+    font-size: 15px;
+}

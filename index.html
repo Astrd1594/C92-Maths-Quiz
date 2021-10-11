@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Maths Quiz!!</title>
+	<link rel="stylesheet" href="loginPage.css">
+	<script src="loginPage.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body style="background-color: rgb(223, 71, 71)">
+	<center>
+		<p id="title">
+			Maths Quiz!!
+		</p>
+		<img id="topIMG" src="https://th.bing.com/th/id/R.c110e1144cf1ee3d6f44094673d1d1b7?rik=kwm%2bD1woIJaYvw&riu=http%3a%2f%2fwww.clipartbest.com%2fcliparts%2fyco%2f6jz%2fyco6jzqgi.png&ehk=RGWYsvvUZGUmc42QI86mdQNOwxTXoHGshyW2pbDoDZ8%3d&risl=&pid=ImgRaw&r=0">
+		<br>
+		<br>
+		<div class="modal-fade">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<center>
+							<h3>Player 1</h3>
+						</center>
+					</div>
+						<div class="modal-body">
+							<input class="form-control" id="player1NameInput" placeholder="Type here...">
+							<div id="output1"></div>
+						</div>
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="modal-fade">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<center>
+							<h3>Player 2</h3>
+						</center>
+					</div>
+					<div class='modal-body'>
+						<input class='form-control' id='player2NameInput' placeholder='Type here...'>
+						<div id="output2"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<br>
+		<button id="startGame" onclick="startGame()" class="btn btn-info">Start game</button>
+	</center>
+</body>
+</html>
+<!--player1NameInput player2NameInput-->

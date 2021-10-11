@@ -1,0 +1,64 @@
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100px;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+span{
+    font-family: Arial, Helvetica, sans-serif;
+}
+input{
+    width: 55%;
+    border-width: 1px;
+    border-color: rgb(153, 185, 236);
+    height: 23px;
+    font-size: 18px;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+body{
+    background-color:rgb(224, 38, 38);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.green{
+    background-color: springgreen;
+    width: 100%;
+    cursor: default;
+}
+.greenP{
+    color: springgreen;
+    margin-left: 100px;
+    cursor: default;
+}
+#startGame{
+    font-size: 15px;
+    width: 40%;
+}
+.pink{
+    background-color:rgb(146, 44, 78);
+    width: 100%;
+}
+.pinkP{
+    color: rgb(146, 44, 78);
+}
+#topIMG{
+    width: 100px;
+    height: 100px;
+}
+#player2Title, #player1Title{
+    font-size: 30px;
+}
+#title{
+    font-size: 50px;
+}
+div{
+    border-radius: 10px;
+}
